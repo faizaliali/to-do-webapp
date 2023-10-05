@@ -1,0 +1,104 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+    background-color: rgb(13, 13, 45);
+}
+
+.container {
+    background-color: white;
+    width: 540px;
+    border-radius: 10px;
+    height: 60vh;
+    border: 1px solid rgb(18, 17, 17);
+    margin: 150px 550px;
+    overflow-y: scroll;
+}
+
+.mytodo {
+    padding: 0px 20px 70px;
+}
+
+.container h1 {
+    text-align: center;
+}
+
+#input-box {
+    font-size: 20px;
+}
+
+.mytodo .input {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 30px;
+    padding-left: 15px;
+    margin-bottom: 25px;
+    background-color: #edeef0;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+.mytodo input {
+    position: sticky;
+    border: none;
+    outline: none;
+    padding: 10px;
+    background-color: transparent;
+    font-weight: 14px;
+}
+
+button {
+    border: none;
+    text-align: center;
+    outline: none;
+    padding: 16px 50px;
+    background-color: orange;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 40px;
+    cursor: pointer;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+}
+
+ul li {
+    background-color: lightgray;
+    width: 450px;
+    margin-left: -35px;
+    margin-right: 100px;
+    margin-bottom: 5px;
+    border-radius: 30px;
+    list-style-type: none;
+    font-size: 20px;
+    padding: 12px 8px 12px 20px;
+    cursor: pointer;
+    position: relative;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+ul li del {
+    background-color: red;
+    position: absolute;
+    text-decoration: none;
+    right: 8px;
+    top: 7px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    font-size: 18px;
+    color: #555;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
